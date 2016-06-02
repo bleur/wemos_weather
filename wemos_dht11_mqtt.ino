@@ -16,8 +16,8 @@
 
 DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266
 
-const char* ssid = "UFO";
-const char* password = "9261853695";
+const char* ssid = "";
+const char* password = "";
 
 const char* topic = "/devices/arduino/controls";
 const char* temp_topic = "/devices/arduino/controls/dht_temperature";
